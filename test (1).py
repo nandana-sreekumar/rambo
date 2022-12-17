@@ -63,15 +63,11 @@ class ChatApplication:
         msg = self.msg_entry.get()
         if not msg:
             return
-        if(self.play_music_state):
-            if msg=='Y' or msg=='y':
-                self._insert_msg(getResponse("Play Music",self.q_index))
-        else:
-            self._insert_msg(msg,'You')
-            self._insert_msg(getResponse(msg,self.q_index))
-            self.q_index += 1
-            qstn = askQuestion(self.q_index)
-            self._insert_qstn(qstn)
+        self._insert_msg(msg,'You')
+        self._insert_msg(getResponse(msg,self.q_index))
+        self.q_index += 1
+        qstn = askQuestion(self.q_index)
+        self._insert_qstn(qstn)
             
         
             
