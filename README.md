@@ -25,7 +25,8 @@
   5 Create text channel </br>
   6 Invite Bot to your Server</br>
   7 Invite your bot to your server via OAuth2 URL Generator</br>
-  ![URL Generator]('dd.png')
+ ![dd](https://user-images.githubusercontent.com/120661612/208284779-6021a987-8d41-4348-b7b2-be8369bf5a8c.png)
+
 
 ## **Installation**
 -   python -m pip install requests
@@ -39,6 +40,10 @@
 -   requests
 -   textblob
 ## **Features**
--   The user can get inspirational quotes by giving the command '$inspire'</br>![img]('hack.png')
--   Rambo detects the user's emotions by interacting with them and analyze their moods using textblob Sentiment Analysis. And recommends music according to their moods.</br>![img]('2.png')</br>![img]('3.png')
--   There is also a provision to get uplifting messages from Rambo when the user is not in a good mood.</br>![img]('6.png')
+-   The user can get inspirational quotes by giving the command '$inspire'</br>![hack](https://user-images.githubusercontent.com/120661612/208284746-cfbe457e-c2e9-4469-a437-eaada17a00d4.png)
+
+-   Rambo detects the user's emotions by interacting with them and analyze their moods using textblob Sentiment Analysis. And recommends music according to their moods.</br>![2](https://user-images.githubusercontent.com/120661612/208284798-6770114f-ff17-4d2e-a3ad-6f4aa75faa90.png)
+</br>![3](https://user-images.githubusercontent.com/120661612/208284810-67727b2d-bee6-455f-b920-d9c9b1f9af64.png)
+
+-   There is also a provision to get uplifting messages from Rambo when the user is not in a good mood.</br>![6](https://user-images.githubusercontent.com/120661612/208284824-61ac997b-5467-4799-8d38-0de645877e50.png)
+
