@@ -1,5 +1,5 @@
 import os
-my_secret = os.environ['TOKEN']
+TOKEN = 'Insert your token here'
 import discord
 import requests
 import json
